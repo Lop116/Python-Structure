@@ -33,7 +33,7 @@ class stack:
 
     def display(self):
         if not self.is_empty():
-            for i in self.items:
+            for i in reversed(self.items):
                 print(i, end=" ")
             print(" ")
         else:
